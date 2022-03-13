@@ -1,15 +1,15 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-const Home: React.FC = () => {
+const Card: React.FC = () => {
   return (
     <Swiper
-    spaceBetween={10}
-    initialSlide={0}
-    loop={true}
-    slidesPerView={1}
-    centeredSlides={true}
-    grabCursor={true}
+        spaceBetween={10}
+        initialSlide={0}
+        loop={true}
+        slidesPerView={1}
+        centeredSlides={true}
+        grabCursor={true}
     >
       <SwiperSlide>Slide 1</SwiperSlide>
       <SwiperSlide>Slide 2</SwiperSlide>
@@ -19,4 +19,4 @@ const Home: React.FC = () => {
   )
 }
 
-export default Home
+export default Card
