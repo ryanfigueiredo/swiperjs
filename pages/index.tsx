@@ -1,5 +1,6 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { GetServerSideProps } from 'next'
 
 const Home: React.FC = () => {
   return (
@@ -20,3 +21,9 @@ const Home: React.FC = () => {
 }
 
 export default Home
+
+export const getServerSideProps: GetServerSideProps = async (ctx) => {
+  return {
+    props: {}
+  }
+}
