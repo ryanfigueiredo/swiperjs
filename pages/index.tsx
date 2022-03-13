@@ -1,5 +1,4 @@
 import type { NextPage } from 'next';
-import 'swiper/css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 
